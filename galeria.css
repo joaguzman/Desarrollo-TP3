@@ -1,0 +1,28 @@
+h1{
+    color: blue;
+
+}
+
+body {
+    background-color: darkgray;
+}
+
+img {
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+
+
+.Cimagen {
+    flex-direction: row;
+}
+
+.C1 {
+    columns: 0;
+
+}
+
+.C2 {
+    columns: 1;
+}
