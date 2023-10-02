@@ -1,0 +1,55 @@
+/* estilos.css */
+body
+{background-color: rgb(91, 98, 98);}
+
+h1 {
+    color: #bfff00; 
+    font-size: 50px; 
+    font-weight: bold; 
+    text-align: center; 
+    /* Otros estilos para el título */
+}
+p {
+    color: #bfff00; 
+    font-size: 25px;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #89f504;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #00ff7b;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #383e36;
+    color: #34ff07;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0ad666;
+}
